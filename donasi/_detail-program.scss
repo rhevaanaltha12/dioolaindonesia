@@ -9,7 +9,29 @@
     font-size: 36px;
     color: #000000;
     text-align: center;
+
     }
 
-    
+    .text-title{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #3C3C3C;
+        padding-bottom: 15px;
+    }
+
+    .text{  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #7A7A7A;
+    }
+
+    .kanan{
+        margin-left: 110px;
+    }
 }

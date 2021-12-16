@@ -150,6 +150,7 @@
 }
 
 #cara-kerja {
+  z-index: 0;
   padding-bottom: 200px;
 }
 
@@ -514,6 +515,7 @@
 
 #cara-kerja-inkubasi {
   padding-bottom: 200px;
+  z-index: 0;
 }
 
 #cara-kerja-inkubasi .cara-kerja-h5 {
@@ -1082,6 +1084,35 @@
 
 #campaign .card-deck .card .card-text-donasi {
   font-size: 12px;
+  font-family: 'Poppins';
+}
+
+#campaign .card-deck .card .sisa {
+  padding-top: 4px;
+}
+
+#campaign .card-deck .card .sisa .card-text-tenggat {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #E36863;
+  padding-left: 35px;
+}
+
+#campaign .card-deck .card .sisa .card-text-jumlah {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BF8B2E;
+}
+
+#campaign .card-deck .card .span-donasi {
+  font-size: 14px;
+  color: #BF8B2E;
+  font-weight: 600;
 }
 
 #campaign .card-deck .card .btn {
@@ -1095,6 +1126,19 @@
   border-radius: 10px;
   height: 200px;
   width: 100%;
+}
+
+#campaign .card-deck .link-selengkapnya {
+  color: #BF8B2E;
+  text-decoration: none;
+}
+
+#campaign .card-deck .link-selengkapnya:hover {
+  color: #70571A;
+}
+
+#campaign .card-deck .progress .progress-bar {
+  background-color: #BF8B2E;
 }
 
 #campaign .btn-bawah {
@@ -1169,15 +1213,50 @@
   width: 100%;
 }
 
-#campaign-all .card-deck .card .card-text-donasi {
-  font-family: 'Poppins';
+#campaign-all .card-deck .card .sisa {
+  padding-top: 4px;
+}
+
+#campaign-all .card-deck .card .sisa .card-text-tenggat {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
+  color: #E36863;
+  padding-left: 35px;
+}
+
+#campaign-all .card-deck .card .sisa .card-text-jumlah {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BF8B2E;
+}
+
+#campaign-all .card-deck .card .card-text-donasi {
+  font-size: 12px;
+  font-family: 'Poppins';
 }
 
 #campaign-all .card-deck .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
+}
+
+#campaign-all .card-deck .card .progress .progress-bar {
+  background-color: #BF8B2E;
+}
+
+#campaign-all .card-deck .card .link-selengkapnya {
+  color: #BF8B2E;
+  text-decoration: none;
+}
+
+#campaign-all .card-deck .card .link-selengkapnya:hover {
+  color: #70571A;
 }
 
 @media only screen and (max-width: 992px) {
@@ -1201,5 +1280,28 @@
   font-size: 36px;
   color: #000000;
   text-align: center;
+}
+
+#detail .text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3C3C3C;
+  padding-bottom: 15px;
+}
+
+#detail .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#detail .kanan {
+  margin-left: 110px;
 }
 /*# sourceMappingURL=main.css.map */
