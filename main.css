@@ -1078,6 +1078,10 @@
   font-weight: 600;
 }
 
+#campaign .card-deck .card .card-text-donasi {
+  font-size: 12px;
+}
+
 #campaign .card-deck .card .btn {
   background-color: #BF8B2E;
   color: white;
