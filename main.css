@@ -1091,7 +1091,7 @@
   width: 100%;
 }
 
-#campaign .container-btn {
+#campaign .btn-bawah {
   margin-top: 57px;
   border-radius: 10px;
   height: 48px;
@@ -1100,11 +1100,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-#campaign .container-btn a {
-  text-decoration: none;
   color: white;
+  border: #BF8B2E;
 }
 
 #campaign-all {
