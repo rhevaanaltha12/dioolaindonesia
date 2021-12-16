@@ -1,0 +1,57 @@
+#toolbox {
+    .toolbox-h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .item-toolbox {
+        padding-top: 130px;
+        padding-bottom: 216px;
+        width: 218px;
+        margin: auto;
+
+        .toolbox-h5 {
+            padding-top: 20px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: #3C3C3C;
+        }
+
+        .toolbox-p {
+            padding-top: 14px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #7A7A7A;
+        }
+    }
+
+    .item-toolbox:hover {
+        .toolbox-1 {
+            fill: #BF8B2E !important;
+        }
+
+        .toolbox-h5 {
+            color: #BF8B2E;
+        }
+
+        .toolbox-p {
+            color: #3C3C3C;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .item-toolbox {
+            margin-bottom: -200px;
+        }
+    }
+}

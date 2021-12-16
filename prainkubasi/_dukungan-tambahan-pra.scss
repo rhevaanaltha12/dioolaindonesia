@@ -1,0 +1,92 @@
+#dukungan-tambahan-pra {
+    .pra-h5 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #BF8B2E;
+        padding-bottom: 10px;
+    }
+
+    .pra-h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #3C3C3C;
+        padding-bottom: 35px;
+    }
+
+    .pra-p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #3C3C3C;
+        max-width: 647px;
+        margin: auto;
+        padding-bottom: 144px;
+    }
+
+    .item-dukungan-pra {
+        margin: auto;
+
+        .dukungan-p-1 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #3C3C3C;
+            padding-top: 20px;
+        }
+
+        .dukungan-p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #7A7A7A;
+            width: 311px;
+        }
+
+        .btn-dukungan-pra {
+            margin-top: 11px;
+            padding: 15px 10px;
+            width: 311px;
+            background: #BF8B2E;
+            border-radius: 5px;
+            border-color: #BF8B2E;
+        }
+
+        .btn-dukungan-pra-2 {
+            margin-top: 35px;
+            padding: 15px 10px;
+            width: 311px;
+            background: #BF8B2E;
+            border-radius: 5px;
+            border-color: #BF8B2E;
+        }
+
+        .btn-dukungan-pra-3 {
+            margin-top: 35px;
+            padding: 15px 10px;
+            width: 311px;
+            background: #BF8B2E;
+            border-radius: 5px;
+            border-color: #BF8B2E;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .item-dukungan-pra {
+            margin: 100px auto;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+#campaign{
+    height: 1000px;
+
+
+.title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.card-deck{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+
+    .card{
+        height: 602px;
+        width: 322px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+
+        .card-title{
+            font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: bold;
+        }
+
+        .card-text{
+            font-size: 16px;
+            font-family: 'Roboto';
+            font-weight: normal;
+            color: #7A7A7A;
+            
+            .card-text-bottom{
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+
+
+
+        .btn{
+            background-color: #BF8B2E;
+            color: white;
+            width: 262px;
+            height: 48px;
+        }
+
+        .card-img-top{
+            border-radius: 10px;
+            height: 200px;
+            width: 100%;
+        }
+    }
+}
+
+
+.container-btn{
+    margin-top: 57px;
+    border-radius: 10px;
+    height: 48px;
+    width: 700px;
+    background-color: #BF8B2E;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+}

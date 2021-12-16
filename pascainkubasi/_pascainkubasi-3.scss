@@ -1,0 +1,61 @@
+#pascainkubasi-3 {
+    padding-top: 20%;
+
+    .pascainkubasi3-h5 {
+        padding-top: 200px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #BF8B2E;
+    }
+
+    .pascainkubasi3-p {
+        padding-top: 35px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #3C3C3C;
+    }
+
+    .btn-daftar {
+        margin-top: 35px;
+        width: 238px;
+        height: 48px;
+        left: 0px;
+        top: 188px;
+        background: #BF8B2E;
+        border-radius: 5px;
+        border-color: #BF8B2E;
+        border-radius: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color: #FEFEFE;
+    }
+
+    .konten-kiri {
+        margin-top: 40px;
+    }
+
+    .konten-kanan {
+        
+        img{
+            margin-top: 150px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        img {
+            padding-top: 100px;
+            margin: 0 auto;
+        }
+    }
+
+
+}

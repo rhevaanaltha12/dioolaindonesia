@@ -1,0 +1,1189 @@
+#prainkubasi-1 {
+  padding-top: 10%;
+}
+
+#prainkubasi-1 .prainkubasi1-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#prainkubasi-1 .prainkubasi1-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#prainkubasi-1 .prainkubasi1-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#prainkubasi-1 .btn-gabung {
+  width: 214px;
+  height: 70px;
+  left: 59px;
+  top: 562px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FEFEFE;
+}
+
+#prainkubasi-1 .konten-kiri {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  #prainkubasi-1 img {
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+}
+
+#prainkubasi-2 {
+  padding-top: 216px;
+  padding-bottom: 216px;
+}
+
+#prainkubasi-2 .prainkubasi2-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#prainkubasi-2 .prainkubasi2-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#prainkubasi-2 .prainkubasi2-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+@media only screen and (max-width: 992px) {
+  #prainkubasi-2 img {
+    padding-bottom: 100px;
+    margin: auto;
+  }
+}
+
+#toolbox .toolbox-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#toolbox .item-toolbox {
+  padding-top: 130px;
+  padding-bottom: 216px;
+  width: 218px;
+  margin: auto;
+}
+
+#toolbox .item-toolbox .toolbox-h5 {
+  padding-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#toolbox .item-toolbox .toolbox-p {
+  padding-top: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#toolbox .item-toolbox:hover .toolbox-1 {
+  fill: #BF8B2E !important;
+}
+
+#toolbox .item-toolbox:hover .toolbox-h5 {
+  color: #BF8B2E;
+}
+
+#toolbox .item-toolbox:hover .toolbox-p {
+  color: #3C3C3C;
+}
+
+@media only screen and (max-width: 992px) {
+  #toolbox .item-toolbox {
+    margin-bottom: -200px;
+  }
+}
+
+#cara-kerja {
+  padding-bottom: 200px;
+}
+
+#cara-kerja .cara-kerja-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #BF8B2E;
+}
+
+#cara-kerja .cara-kerja-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#cara-kerja .cara-kerja-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+@media only screen and (max-width: 992px) {
+  #cara-kerja {
+    margin-top: 100px;
+  }
+  #cara-kerja .accordion-prainkubasi {
+    margin-top: 100px;
+  }
+}
+
+#dukungan-tambahan-pra .pra-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #BF8B2E;
+  padding-bottom: 10px;
+}
+
+#dukungan-tambahan-pra .pra-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #3C3C3C;
+  padding-bottom: 35px;
+}
+
+#dukungan-tambahan-pra .pra-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #3C3C3C;
+  max-width: 647px;
+  margin: auto;
+  padding-bottom: 144px;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra {
+  margin: auto;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra .dukungan-p-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3C3C3C;
+  padding-top: 20px;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra .dukungan-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  width: 311px;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra .btn-dukungan-pra {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra .btn-dukungan-pra-2 {
+  margin-top: 35px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-pra .item-dukungan-pra .btn-dukungan-pra-3 {
+  margin-top: 35px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+@media only screen and (max-width: 992px) {
+  #dukungan-tambahan-pra .item-dukungan-pra {
+    margin: 100px auto;
+  }
+}
+
+#pra-library {
+  padding: 146px 0;
+}
+
+#pra-library .pra-library-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+#pra-library .pra-library-p {
+  width: 922px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin: auto;
+  padding-bottom: 18px;
+}
+
+#pra-library .btn-library-pra {
+  margin: auto;
+  display: block;
+  height: 41px;
+  width: 175px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  background: #E4E4E4;
+  border-color: #E4E4E4;
+}
+
+#inkubasi-1 {
+  padding-top: 10%;
+}
+
+#inkubasi-1 .inkubasi1-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#inkubasi-1 .inkubasi1-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#inkubasi-1 .inkubasi1-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#inkubasi-1 .konten-kiri {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  #inkubasi-1 img {
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+}
+
+#inkubasi-2 {
+  padding-top: 216px;
+  padding-bottom: 216px;
+}
+
+#inkubasi-2 .inkubasi2-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#inkubasi-2 .inkubasi2-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#inkubasi-2 .inkubasi2-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+@media only screen and (max-width: 992px) {
+  #inkubasi-2 img {
+    padding-bottom: 100px;
+    margin: auto;
+  }
+}
+
+#inkubasi-3 {
+  padding-top: 10%;
+  padding-bottom: 103px;
+}
+
+#inkubasi-3 .inkubasi3-h5 {
+  padding-top: 200px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#inkubasi-3 .inkubasi3-p {
+  padding-top: 35px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#inkubasi-3 .btn-daftar {
+  margin-top: 35px;
+  width: 238px;
+  height: 48px;
+  left: 0px;
+  top: 188px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+#inkubasi-3 .konten-kiri {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  #inkubasi-3 img {
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+}
+
+#ditawarkan {
+  padding-top: 105px;
+  padding-bottom: 300px;
+}
+
+#ditawarkan .ditawarkan-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+#ditawarkan .ditawarkan-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #7A7A7A;
+  margin: auto;
+}
+
+#ditawarkan .item-ditawarkan {
+  padding-top: 100px;
+}
+
+#ditawarkan .item-ditawarkan .item-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+  padding-top: 20px;
+}
+
+#ditawarkan .item-ditawarkan .item-p {
+  padding-top: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#ditawarkan .item-ditawarkan:hover .item-h5 {
+  color: #BF8B2E;
+}
+
+#ditawarkan .item-ditawarkan:hover .item-p {
+  color: #3C3C3C;
+}
+
+#cara-kerja-inkubasi {
+  padding-bottom: 200px;
+}
+
+#cara-kerja-inkubasi .cara-kerja-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #BF8B2E;
+}
+
+#cara-kerja-inkubasi .cara-kerja-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#cara-kerja-inkubasi .cara-kerja-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+@media only screen and (max-width: 992px) {
+  #cara-kerja-inkubasi {
+    margin-top: 100px;
+  }
+  #cara-kerja-inkubasi .accordion-inkubasi {
+    margin-top: 100px;
+  }
+}
+
+#dukungan-tambahan-inkubasi .inkubasi-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #BF8B2E;
+  padding-bottom: 10px;
+}
+
+#dukungan-tambahan-inkubasi .inkubasi-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #3C3C3C;
+  padding-bottom: 35px;
+}
+
+#dukungan-tambahan-inkubasi .inkubasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #3C3C3C;
+  max-width: 647px;
+  margin: auto;
+  padding-bottom: 144px;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi {
+  margin: auto;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi .dukungan-p-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3C3C3C;
+  padding-top: 20px;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi .dukungan-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  width: 311px;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi .btn-dukungan-inkubasi {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi .btn-dukungan-inkubasi-2 {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-inkubasi .item-dukungan-inkubasi .btn-dukungan-inkubasi-3 {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+@media only screen and (max-width: 992px) {
+  #dukungan-tambahan-inkubasi .item-dukungan-inkubasi {
+    margin: 100px auto;
+  }
+}
+
+#inkubasi-library {
+  padding: 146px 0;
+}
+
+#inkubasi-library .inkubasi-library-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+#inkubasi-library .inkubasi-library-p {
+  width: 922px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin: auto;
+  padding-bottom: 18px;
+}
+
+#inkubasi-library .btn-library-inkubasi {
+  margin: auto;
+  display: block;
+  height: 41px;
+  width: 175px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  background: #E4E4E4;
+  border-color: #E4E4E4;
+}
+
+#pascainkubasi-1 {
+  padding-top: 10%;
+}
+
+#pascainkubasi-1 .pascainkubasi1-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#pascainkubasi-1 .pascainkubasi1-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#pascainkubasi-1 .pascainkubasi1-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#pascainkubasi-1 .konten-kiri {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-1 img {
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+}
+
+#pascainkubasi-2 {
+  padding-top: 20%;
+}
+
+#pascainkubasi-2 .pascainkubasi2-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#pascainkubasi-2 .pascainkubasi2-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#pascainkubasi-2 .pascainkubasi2-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-2 img {
+    padding-bottom: 100px;
+    margin: auto;
+  }
+}
+
+#pascainkubasi-3 {
+  padding-top: 20%;
+}
+
+#pascainkubasi-3 .pascainkubasi3-h5 {
+  padding-top: 200px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#pascainkubasi-3 .pascainkubasi3-p {
+  padding-top: 35px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#pascainkubasi-3 .btn-daftar {
+  margin-top: 35px;
+  width: 238px;
+  height: 48px;
+  left: 0px;
+  top: 188px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+#pascainkubasi-3 .konten-kiri {
+  margin-top: 40px;
+}
+
+#pascainkubasi-3 .konten-kanan img {
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-3 img {
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+}
+
+#pascainkubasi-4 {
+  padding-top: 20%;
+}
+
+#pascainkubasi-4 .pascainkubasi-4-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #BF8B2E;
+}
+
+#pascainkubasi-4 .pascainkubasi-4-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#pascainkubasi-4 .pascainkubasi-4-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-4 {
+    margin-top: 100px;
+  }
+  #pascainkubasi-4 .accordion-pascainkubasi4 {
+    margin-top: 100px;
+  }
+}
+
+#pascainkubasi-5 {
+  padding-top: 20%;
+}
+
+#pascainkubasi-5 .pascainkubasi-5-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #BF8B2E;
+}
+
+#pascainkubasi-5 .pascainkubasi-5-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#pascainkubasi-5 .pascainkubasi-5-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-5 {
+    margin-top: 100px;
+  }
+  #pascainkubasi-5 .accordion-pascainkubasi5 {
+    margin-top: 100px;
+  }
+}
+
+#dukungan-tambahan-pascainkubasi {
+  padding-top: 20%;
+}
+
+#dukungan-tambahan-pascainkubasi .pascainkubasi-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #BF8B2E;
+  padding-bottom: 10px;
+}
+
+#dukungan-tambahan-pascainkubasi .pascainkubasi-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #3C3C3C;
+  padding-bottom: 35px;
+}
+
+#dukungan-tambahan-pascainkubasi .pascainkubasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #3C3C3C;
+  max-width: 647px;
+  margin: auto;
+  padding-bottom: 144px;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi {
+  margin: auto;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi .dukungan-p-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3C3C3C;
+  padding-top: 20px;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi .dukungan-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  width: 311px;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi .btn-dukungan-inkubasi {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi .btn-dukungan-inkubasi-2 {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi .btn-dukungan-inkubasi-3 {
+  margin-top: 11px;
+  padding: 15px 10px;
+  width: 311px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+@media only screen and (max-width: 992px) {
+  #dukungan-tambahan-pascainkubasi .item-dukungan-pascainkubasi {
+    margin: 100px auto;
+  }
+}
+
+#pascainkubasi-library {
+  padding: 300px 0;
+}
+
+#pascainkubasi-library .pascainkubasi-library-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+#pascainkubasi-library .pascainkubasi-library-p {
+  width: 922px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #7A7A7A;
+  margin: auto;
+  padding-bottom: 18px;
+}
+
+#pascainkubasi-library .btn-library-pascainkubasi {
+  margin: auto;
+  display: block;
+  height: 41px;
+  width: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  background: #E4E4E4;
+  border-color: #E4E4E4;
+}
+
+#campaign {
+  height: 1000px;
+}
+
+#campaign .title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#campaign .card-deck {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#campaign .card-deck .card {
+  height: 602px;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+#campaign .card-deck .card .card-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#campaign .card-deck .card .card-text {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: #7A7A7A;
+}
+
+#campaign .card-deck .card .card-text .card-text-bottom {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#campaign .card-deck .card .btn {
+  background-color: #BF8B2E;
+  color: white;
+  width: 262px;
+  height: 48px;
+}
+
+#campaign .card-deck .card .card-img-top {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+#campaign .container-btn {
+  margin-top: 57px;
+  border-radius: 10px;
+  height: 48px;
+  width: 700px;
+  background-color: #BF8B2E;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#campaign .container-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+#campaign-all {
+  height: 1684px;
+}
+
+#campaign-all .title {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+#campaign-all .card-deck {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#campaign-all .card-deck .card {
+  height: 602px;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+#campaign-all .card-deck .card .card-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#campaign-all .card-deck .card .card-text {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: #7A7A7A;
+}
+
+#campaign-all .card-deck .card .card-text .card-text-bottom {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#campaign-all .card-deck .card .btn {
+  background-color: #BF8B2E;
+  color: white;
+  width: 262px;
+  height: 48px;
+}
+
+#campaign-all .card-deck .card .card-img-top {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  #campaign-all {
+    height: auto;
+  }
+  #campaign-all .card-deck {
+    padding-bottom: 50px;
+  }
+}
+
+#detail {
+  height: 1275px;
+}
+
+#detail .title {
+  padding-top: 139px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+#ditawarkan {
+    padding-top: 105px;
+    padding-bottom: 300px;
+
+    .ditawarkan-h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .ditawarkan-p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #7A7A7A;
+        margin: auto;
+    }
+
+    .item-ditawarkan {
+        padding-top: 100px;
+
+        .item-h5 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: #3C3C3C;
+            padding-top: 20px;
+        }
+
+        .item-p {
+            padding-top: 14px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #7A7A7A;
+        }
+    }
+
+    .item-ditawarkan:hover {
+        .item-h5 {
+            color: #BF8B2E;
+        }
+
+        .item-p {
+            color: #3C3C3C;
+        }
+    }
+}
