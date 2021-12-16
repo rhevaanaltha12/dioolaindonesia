@@ -1301,7 +1301,44 @@
   color: #7A7A7A;
 }
 
+#detail .span-donasi {
+  font-size: 14px;
+  color: #BF8B2E;
+  font-weight: 600;
+}
+
+#detail .card-text-donasi {
+  font-size: 12px;
+  font-family: 'Poppins';
+}
+
+#detail .progress .progress-bar {
+  background-color: #BF8B2E;
+}
+
 #detail .kanan {
   margin-left: 110px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#detail .text-sisa {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #BF8B2E;
+}
+
+#detail .text-tenggat {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
