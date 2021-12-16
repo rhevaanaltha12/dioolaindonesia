@@ -1042,6 +1042,8 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
+  font-family: 'Poppins';
+  font-weight: 700;
 }
 
 #campaign .card-deck {
@@ -1116,6 +1118,8 @@
   text-align: center;
   padding-top: 180px;
   padding-bottom: 100px;
+  font-family: 'Poppins';
+  font-weight: 700;
 }
 
 #campaign-all .card-deck {
@@ -1163,6 +1167,17 @@
   border-radius: 10px;
   height: 200px;
   width: 100%;
+}
+
+#campaign-all .card-deck .card .card-text-donasi {
+  font-family: 'Poppins';
+  font-size: 12px;
+}
+
+#campaign-all .card-deck .card .span-donasi {
+  font-size: 14px;
+  color: #BF8B2E;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 992px) {
