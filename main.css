@@ -1166,58 +1166,54 @@
   font-weight: 700;
 }
 
-#campaign-all .card-deck {
-  padding-left: 60px;
-  padding-right: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#campaign-all .card-deck .card {
+#campaign-all .card {
   height: 602px;
   width: 322px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#campaign-all .card-deck .card .card-title {
+#campaign-all .card .card-title {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
 }
 
-#campaign-all .card-deck .card .card-text {
+#campaign-all .card .card-text {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: normal;
   color: #7A7A7A;
 }
 
-#campaign-all .card-deck .card .card-text .card-text-bottom {
+#campaign-all .card .card-text .card-text-bottom {
   font-size: 12px;
   font-weight: 600;
 }
 
-#campaign-all .card-deck .card .btn {
+#campaign-all .card .btn {
   background-color: #BF8B2E;
   color: white;
   width: 262px;
   height: 48px;
 }
 
-#campaign-all .card-deck .card .card-img-top {
+#campaign-all .card .card-img-top {
   border-radius: 10px;
   height: 200px;
   width: 100%;
 }
 
-#campaign-all .card-deck .card .sisa {
+#campaign-all .card .sisa {
   padding-top: 4px;
 }
 
-#campaign-all .card-deck .card .sisa .card-text-tenggat {
+#campaign-all .card .sisa .card-text-tenggat {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1226,7 +1222,7 @@
   padding-left: 35px;
 }
 
-#campaign-all .card-deck .card .sisa .card-text-jumlah {
+#campaign-all .card .sisa .card-text-jumlah {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1235,27 +1231,27 @@
   color: #BF8B2E;
 }
 
-#campaign-all .card-deck .card .card-text-donasi {
+#campaign-all .card .card-text-donasi {
   font-size: 12px;
   font-family: 'Poppins';
 }
 
-#campaign-all .card-deck .card .span-donasi {
+#campaign-all .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
 }
 
-#campaign-all .card-deck .card .progress .progress-bar {
+#campaign-all .card .progress .progress-bar {
   background-color: #BF8B2E;
 }
 
-#campaign-all .card-deck .card .link-selengkapnya {
+#campaign-all .card .link-selengkapnya {
   color: #BF8B2E;
   text-decoration: none;
 }
 
-#campaign-all .card-deck .card .link-selengkapnya:hover {
+#campaign-all .card .link-selengkapnya:hover {
   color: #70571A;
 }
 
