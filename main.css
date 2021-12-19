@@ -1403,4 +1403,63 @@
   line-height: 19px;
   color: #7A7A7A;
 }
+
+#identitas-donasi {
+  padding-top: 135px;
+  padding-bottom: 250px;
+}
+
+#identitas-donasi .konten-kiri .identitas-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#identitas-donasi .konten-kiri .identitas-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+}
+
+#identitas-donasi .konten-kiri .form-identitas .form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #BF9D60;
+}
+
+#identitas-donasi .konten-kiri .form-identitas .form-control {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#identitas-donasi .konten-kiri .btn-primary {
+  margin-top: 55px;
+  width: 373px;
+  height: 54px;
+  left: 100px;
+  top: 539px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FEFEFE;
+}
 /*# sourceMappingURL=main.css.map */
