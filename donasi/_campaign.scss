@@ -1,56 +1,54 @@
-#campaign{
+#campaign {
     height: 1000px;
 
 
-.title{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    font-family: 'Poppins';
-    font-weight: 700;
-}
+    .title {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        font-family: 'Poppins';
+        font-weight: 700;
+    }
 
 
-.card-deck{
-    padding-left: 60px;
-    padding-right: 60px;
-    display: flex;
-
-    .card{
+    .card {
         height: 602px;
         width: 322px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 50px;
         border-radius: 10px;
+        display: flex;
 
-        .card-title{
+        .card-title {
             font-family: 'Roboto';
-        font-size: 18px;
-        font-weight: bold;
+            font-size: 18px;
+            font-weight: bold;
         }
 
-        .card-text{
+        .card-text {
             font-size: 16px;
             font-family: 'Roboto';
             font-weight: normal;
             color: #7A7A7A;
-            
-            .card-text-bottom{
+
+            .card-text-bottom {
                 font-size: 12px;
                 font-weight: 600;
             }
 
         }
-        .card-text-donasi{
+
+        .card-text-donasi {
             font-size: 12px;
             font-family: 'Poppins';
         }
 
-        .sisa{
+        .sisa {
 
             padding-top: 4px;
-            
-            .card-text-tenggat{
+
+            .card-text-tenggat {
                 font-family: Inter;
                 font-style: normal;
                 font-weight: 500;
@@ -59,7 +57,7 @@
                 padding-left: 35px;
             }
 
-            .card-text-jumlah{
+            .card-text-jumlah {
                 font-family: Inter;
                 font-style: normal;
                 font-weight: 500;
@@ -69,75 +67,84 @@
             }
         }
 
-        .span-donasi{
+        .span-donasi {
             font-size: 14px;
             color: #BF8B2E;
             font-weight: 600;
         }
 
 
-        .btn{
+        .btn {
             background-color: #BF8B2E;
             color: white;
             width: 262px;
             height: 48px;
         }
 
-        .card-img-top{
+        .card-img-top {
             border-radius: 10px;
             height: 200px;
             width: 100%;
         }
     }
 
-    .link-selengkapnya{
+    .link-selengkapnya {
         color: #BF8B2E;
         text-decoration: none;
     }
 
-    .link-selengkapnya:hover{
+    .link-selengkapnya:hover {
         color: #70571A;
     }
 
-    
 
-    .progress{
-        .progress-bar{
+
+    .progress {
+        .progress-bar {
             background-color: #BF8B2E;
         }
     }
-}
 
 
-// .container-btn{
-//     margin-top: 57px;
-//     border-radius: 10px;
-//     height: 48px;
-//     width: 700px;
-//     background-color: #BF8B2E;
-//     text-align: center;
-//     margin-left: auto;
-//     margin-right: auto;
 
-// }
+    // .container-btn{
+    //     margin-top: 57px;
+    //     border-radius: 10px;
+    //     height: 48px;
+    //     width: 700px;
+    //     background-color: #BF8B2E;
+    //     text-align: center;
+    //     margin-left: auto;
+    //     margin-right: auto;
 
-// .container-btn a{
-//     text-decoration: none;
-//     color: white;
-// }
+    // }
+
+    // .container-btn a{
+    //     text-decoration: none;
+    //     color: white;
+    // }
 
 
-.btn-bawah{
-    margin-top: 57px;
-    border-radius: 10px;
-    height: 48px;
-    width: 700px;
-    background-color: #BF8B2E;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    border: #BF8B2E;
-}
+    .btn-bawah {
+        margin-top: 57px;
+        border-radius: 10px;
+        height: 48px;
+        width: 700px;
+        background-color: #BF8B2E;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        border: #BF8B2E;
+    }
+
+    @media only screen and (max-width: 992px) {
+
+        .btn-bawah {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 
 }

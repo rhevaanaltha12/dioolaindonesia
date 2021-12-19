@@ -1048,50 +1048,46 @@
   font-weight: 700;
 }
 
-#campaign .card-deck {
-  padding-left: 60px;
-  padding-right: 60px;
+#campaign .card {
+  height: 602px;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#campaign .card-deck .card {
-  height: 602px;
-  width: 322px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-#campaign .card-deck .card .card-title {
+#campaign .card .card-title {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
 }
 
-#campaign .card-deck .card .card-text {
+#campaign .card .card-text {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: normal;
   color: #7A7A7A;
 }
 
-#campaign .card-deck .card .card-text .card-text-bottom {
+#campaign .card .card-text .card-text-bottom {
   font-size: 12px;
   font-weight: 600;
 }
 
-#campaign .card-deck .card .card-text-donasi {
+#campaign .card .card-text-donasi {
   font-size: 12px;
   font-family: 'Poppins';
 }
 
-#campaign .card-deck .card .sisa {
+#campaign .card .sisa {
   padding-top: 4px;
 }
 
-#campaign .card-deck .card .sisa .card-text-tenggat {
+#campaign .card .sisa .card-text-tenggat {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1100,7 +1096,7 @@
   padding-left: 35px;
 }
 
-#campaign .card-deck .card .sisa .card-text-jumlah {
+#campaign .card .sisa .card-text-jumlah {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1109,35 +1105,35 @@
   color: #BF8B2E;
 }
 
-#campaign .card-deck .card .span-donasi {
+#campaign .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
 }
 
-#campaign .card-deck .card .btn {
+#campaign .card .btn {
   background-color: #BF8B2E;
   color: white;
   width: 262px;
   height: 48px;
 }
 
-#campaign .card-deck .card .card-img-top {
+#campaign .card .card-img-top {
   border-radius: 10px;
   height: 200px;
   width: 100%;
 }
 
-#campaign .card-deck .link-selengkapnya {
+#campaign .link-selengkapnya {
   color: #BF8B2E;
   text-decoration: none;
 }
 
-#campaign .card-deck .link-selengkapnya:hover {
+#campaign .link-selengkapnya:hover {
   color: #70571A;
 }
 
-#campaign .card-deck .progress .progress-bar {
+#campaign .progress .progress-bar {
   background-color: #BF8B2E;
 }
 
@@ -1152,6 +1148,14 @@
   margin-right: auto;
   color: white;
   border: #BF8B2E;
+}
+
+@media only screen and (max-width: 992px) {
+  #campaign .btn-bawah {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #campaign-all {
