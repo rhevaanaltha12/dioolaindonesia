@@ -22,6 +22,7 @@
         color: #000000;
         margin: auto;
         padding-bottom: 18px;
+
     }
 
     .btn-library-pra {
@@ -37,4 +38,12 @@
         background: #E4E4E4;
         border-color: #E4E4E4;
     }
+
+    @media only screen and (max-width: 992px) {
+        .pra-library-p {
+            width: auto;
+        }
+    }
+
+
 }

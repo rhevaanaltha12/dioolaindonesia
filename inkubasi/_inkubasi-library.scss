@@ -37,4 +37,10 @@
         background: #E4E4E4;
         border-color: #E4E4E4;
     }
+
+    @media only screen and (max-width: 992px) {
+        .inkubasi-library-p {
+            width: auto;
+        }
+    }
 }

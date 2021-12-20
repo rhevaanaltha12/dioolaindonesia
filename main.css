@@ -321,6 +321,12 @@
   border-color: #E4E4E4;
 }
 
+@media only screen and (max-width: 992px) {
+  #pra-library .pra-library-p {
+    width: auto;
+  }
+}
+
 #inkubasi-1 {
   padding-top: 10%;
 }
@@ -685,6 +691,12 @@
   border-color: #E4E4E4;
 }
 
+@media only screen and (max-width: 992px) {
+  #inkubasi-library .inkubasi-library-p {
+    width: auto;
+  }
+}
+
 #pascainkubasi-1 {
   padding-top: 10%;
 }
@@ -1034,6 +1046,12 @@
   color: #000000;
   background: #E4E4E4;
   border-color: #E4E4E4;
+}
+
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-library .pascainkubasi-library-p {
+    width: auto;
+  }
 }
 
 #campaign {
