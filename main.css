@@ -1747,4 +1747,159 @@
     width: 300px;
   }
 }
+
+#detail-program-baru {
+  padding-top: 150px;
+}
+
+#detail-program-baru .detail-program-baru-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 73px;
+}
+
+#detail-program-baru .card {
+  width: 416px;
+  border-color: white;
+  margin-top: 50px;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-p .donasi-baru-span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .progress-bar {
+  background-color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .row {
+  margin-top: 10px;
+}
+
+#detail-program-baru .card .card-body .row #total-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .row #total-donasi .total-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .row #tutup-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .btn-donasi {
+  margin-top: 14px;
+  width: 376px;
+  height: 54px;
+  left: 20px;
+  top: 257px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#detail-program-baru #konten-bawah {
+  margin-top: 78px;
+}
+
+#detail-program-baru #konten-bawah .title-bawah {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru #konten-bawah .p-bawah {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  margin-bottom: 100px;
+}
+
+#detail-program-baru #konten-bawah .item {
+  margin-bottom: 100px;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .h5-donatur {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .nama {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .donasi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+@media only screen and (max-width: 992px) {
+  #detail-program-baru .item {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
