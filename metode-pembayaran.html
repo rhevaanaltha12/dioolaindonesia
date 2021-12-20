@@ -51,47 +51,40 @@
         </div>
     </nav>
 
-    <!-- IDENTITAS DONASI -->
-    <section id="nominal-donasi">
+
+    <!-- METODE PEMBAYARAN -->
+
+    <section id="metode-pembayaran">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="konten-kiri">
-                        <p class="donasi-p">Langkah 2/3</p>
-                        <h4 class="donasi-h4">Pilih Nominal</h4>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Rp 20.000
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                                checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Rp 50.000
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                                checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Rp 100.000
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                                checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Rp 250.000
-                            </label>
-                        </div>
-                        <form class="form-identitas">
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="input-name" aria-describedby="emailHelp"
-                                    placeholder="Kustom Nominal">
+                        <p class="donasi-p">Langkah 3/3</p>
+                        <h4 class="donasi-h4">Pilih Metode Pembayaran</h4>
+
+                            <div class="accordion-metode-pembayaran" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Virtual Account
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="form-metode-pembayaran">
+                                                <div class="mb-3">
+                                                    <label for="tulisanBSI" class="form-label">BSI</label>
+                                                    <label for="gambarBSI" class="form-gambar"><img src="assets/images/logo-bsi.svg" alt="logo-bsi"></label>
+                                                    <input type="text" class="form-control" id="input-name" aria-describedby="emailHelp"
+                                                        placeholder="Masukkan Nomer Rekening">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </form>
                         <button type="button" class="btn btn-primary">Lanjutkan</button>
                     </div>
                 </div>
@@ -101,9 +94,6 @@
             </div>
         </div>
     </section>
-
-
-
 
 
 
