@@ -16,18 +16,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.svg" />
     <link rel="stylesheet" href="main.css">
-
     <title>Dioola Indonesia</title>
-
 </head>
 
 <body>
 
     <!-- NAVBAR -->
+
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <img src="/assets/images/logo.svg" alt="" srcset="">
-            <a class="navbar-brand" href="index.html" style="color: #BF8B2E"> Dioola Indonesia</a>
+            <a class="navbar-brand" href="/index.html" style="color: #BF8B2E"> Dioola Indonesia</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,67 +35,55 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #D1BC97;" aria-current="page" href="#visi-1">Visi</a>
+                        <a class="nav-link active" style="color: #D1BC97;" aria-current="page" href="/index.html">Visi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: #D1BC97;" href="#program-1">Program</a>
+                        <a class="nav-link" style="color: #D1BC97;" href="/index.html">Program</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: #D1BC97;" href="#program-kolaborasi">Kolaborasi</a>
+                        <a class="nav-link" style="color: #D1BC97;" href="/index.html">Kolaborasi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: #D1BC97;" href="#library">Library</a>
+                        <a class="nav-link" style="color: #D1BC97;" href="/index.html">Library</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- DETAIL PROGRAM -->
-
-    <section id="detail">
-
+    <section id="detail-program-baru">
         <div class="container">
-            <h1 class="title">Detail Program</h1>
+            <h1 class="detail-program-baru-h1 text-center">Detail Program</h1>
             <div class="row">
                 <div class="col-lg-7">
-                    <img src="assets/images/detail.png" alt="">
+                    <img src="assets/images/detail.png" class="img-fluid detail-img" alt="">
                 </div>
-                <div class="col-lg-4 kanan">
-                    <div class="item">
+                <div class="col-lg-4 ms-auto">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="text-title">
-                                Lorem
+                            <h2 class="detail-program-baru-h2">Lorem
+                            </h2>
+                            <h5 class="detail-program-baru-h5">Mauris, nisl ullamcorper sagittis quam morbi augue
+                                feugiat. Viverra ac, ut in nibh morbi elementum enim, leo, malesuada. Commodo morbi
+                                neque, nulla morbi molestie sit. Mattis at aliquam laoreet turpis malesuada......
                             </h5>
-                            <p class="text">
-                                Mauris, nisl ullamcorper sagittis quam morbi augue feugiat. Viverra ac, ut in nibh morbi
-                                elementum enim, leo, malesuada. Commodo morbi neque, nulla morbi molestie sit. Mattis at
-                                aliquam laoreet turpis malesuada......
-                            </p>
-                            <div class="row">
-                                <p class="card-text-donasi"><span class="span-donasi">Rp. 300.000 </span> terkumpul dari
-                                    Rp. 500.000.000</p>
-                                <div class="progress">
-                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                    <div class="col-lg-3 text-sisa">
-                                        <p class="card-tgl">15 Donasi</p>
-                                    </div>
-                                    <div class="col-lg-6 text-tenggat">
-                                        <p class="card-tgl">30 Hari lagi</p>
-                                    </div>
-
+                            <p class="detail-program-baru-p"><span class="donasi-baru-span">Rp 300.000</span> terkumpul
+                                dari
+                                Rp 50.000.000</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <center>
-                                <button type="button" class="btn-skrng">Donasi Sekarang</button>
-                            </center>
+                            <div class="row">
+                                <div class="col-4" id="total-donasi">15 <span class="total-donasi">Donasi</span></div>
+                                <div class="col-5 ms-auto" id="tutup-donasi">Ditutup 30 hari lagi</div>
+                            </div>
+                            <a href="/identitas-donasi.html"><button type="button" class="btn btn-primary btn-donasi">Donasi Sekarang</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row" id="konten-bawah">
                 <div class="col-lg-7">
                     <h2 class="title-bawah">
                         Cerita
@@ -121,15 +108,16 @@
                         Lorem Ipsum.
                     </p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 ms-auto">
                     <div class="item">
                         <div class="card-body">
-                            <h5 class="h5-donatur">
+                            <h5 class="h5-donatur text-center">
                                 Daftar Donatur
                             </h5>
+                            <hr>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img src="assets/images/review_logo.png" alt="">
+                                    <img src="assets/images/review_logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-6">
                                     <h5 class="nama">
@@ -142,7 +130,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img src="assets/images/review_logo.png" alt="">
+                                    <img src="assets/images/review_logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-6">
                                     <h5 class="nama">
@@ -155,7 +143,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img src="assets/images/review_logo.png" alt="">
+                                    <img src="assets/images/review_logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-6">
                                     <h5 class="nama">
@@ -168,7 +156,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img src="assets/images/review_logo.png" alt="">
+                                    <img src="assets/images/review_logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-6">
                                     <h5 class="nama">
@@ -184,12 +172,15 @@
                 </div>
             </div>
         </div>
-
     </section>
 
 
 
+
+
+
     <!-- FOOTER -->
+
     <section id="footer">
 
         <div class="container">
@@ -256,14 +247,14 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+    <!--     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->

@@ -321,6 +321,12 @@
   border-color: #E4E4E4;
 }
 
+@media only screen and (max-width: 992px) {
+  #pra-library .pra-library-p {
+    width: auto;
+  }
+}
+
 #inkubasi-1 {
   padding-top: 10%;
 }
@@ -685,6 +691,12 @@
   border-color: #E4E4E4;
 }
 
+@media only screen and (max-width: 992px) {
+  #inkubasi-library .inkubasi-library-p {
+    width: auto;
+  }
+}
+
 #pascainkubasi-1 {
   padding-top: 10%;
 }
@@ -1036,6 +1048,12 @@
   border-color: #E4E4E4;
 }
 
+@media only screen and (max-width: 992px) {
+  #pascainkubasi-library .pascainkubasi-library-p {
+    width: auto;
+  }
+}
+
 #campaign {
   height: 1000px;
 }
@@ -1048,50 +1066,46 @@
   font-weight: 700;
 }
 
-#campaign .card-deck {
-  padding-left: 60px;
-  padding-right: 60px;
+#campaign .card {
+  height: 602px;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#campaign .card-deck .card {
-  height: 602px;
-  width: 322px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-#campaign .card-deck .card .card-title {
+#campaign .card .card-title {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
 }
 
-#campaign .card-deck .card .card-text {
+#campaign .card .card-text {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: normal;
   color: #7A7A7A;
 }
 
-#campaign .card-deck .card .card-text .card-text-bottom {
+#campaign .card .card-text .card-text-bottom {
   font-size: 12px;
   font-weight: 600;
 }
 
-#campaign .card-deck .card .card-text-donasi {
+#campaign .card .card-text-donasi {
   font-size: 12px;
   font-family: 'Poppins';
 }
 
-#campaign .card-deck .card .sisa {
+#campaign .card .sisa {
   padding-top: 4px;
 }
 
-#campaign .card-deck .card .sisa .card-text-tenggat {
+#campaign .card .sisa .card-text-tenggat {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1100,7 +1114,7 @@
   padding-left: 35px;
 }
 
-#campaign .card-deck .card .sisa .card-text-jumlah {
+#campaign .card .sisa .card-text-jumlah {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1109,35 +1123,35 @@
   color: #BF8B2E;
 }
 
-#campaign .card-deck .card .span-donasi {
+#campaign .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
 }
 
-#campaign .card-deck .card .btn {
+#campaign .card .btn {
   background-color: #BF8B2E;
   color: white;
   width: 262px;
   height: 48px;
 }
 
-#campaign .card-deck .card .card-img-top {
+#campaign .card .card-img-top {
   border-radius: 10px;
   height: 200px;
   width: 100%;
 }
 
-#campaign .card-deck .link-selengkapnya {
+#campaign .link-selengkapnya {
   color: #BF8B2E;
   text-decoration: none;
 }
 
-#campaign .card-deck .link-selengkapnya:hover {
+#campaign .link-selengkapnya:hover {
   color: #70571A;
 }
 
-#campaign .card-deck .progress .progress-bar {
+#campaign .progress .progress-bar {
   background-color: #BF8B2E;
 }
 
@@ -1154,6 +1168,14 @@
   border: #BF8B2E;
 }
 
+@media only screen and (max-width: 992px) {
+  #campaign .btn-bawah {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 #campaign-all {
   height: 1684px;
 }
@@ -1166,58 +1188,54 @@
   font-weight: 700;
 }
 
-#campaign-all .card-deck {
-  padding-left: 60px;
-  padding-right: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#campaign-all .card-deck .card {
+#campaign-all .card {
   height: 602px;
   width: 322px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#campaign-all .card-deck .card .card-title {
+#campaign-all .card .card-title {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
 }
 
-#campaign-all .card-deck .card .card-text {
+#campaign-all .card .card-text {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: normal;
   color: #7A7A7A;
 }
 
-#campaign-all .card-deck .card .card-text .card-text-bottom {
+#campaign-all .card .card-text .card-text-bottom {
   font-size: 12px;
   font-weight: 600;
 }
 
-#campaign-all .card-deck .card .btn {
+#campaign-all .card .btn {
   background-color: #BF8B2E;
   color: white;
   width: 262px;
   height: 48px;
 }
 
-#campaign-all .card-deck .card .card-img-top {
+#campaign-all .card .card-img-top {
   border-radius: 10px;
   height: 200px;
   width: 100%;
 }
 
-#campaign-all .card-deck .card .sisa {
+#campaign-all .card .sisa {
   padding-top: 4px;
 }
 
-#campaign-all .card-deck .card .sisa .card-text-tenggat {
+#campaign-all .card .sisa .card-text-tenggat {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1226,7 +1244,7 @@
   padding-left: 35px;
 }
 
-#campaign-all .card-deck .card .sisa .card-text-jumlah {
+#campaign-all .card .sisa .card-text-jumlah {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -1235,27 +1253,27 @@
   color: #BF8B2E;
 }
 
-#campaign-all .card-deck .card .card-text-donasi {
+#campaign-all .card .card-text-donasi {
   font-size: 12px;
   font-family: 'Poppins';
 }
 
-#campaign-all .card-deck .card .span-donasi {
+#campaign-all .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
 }
 
-#campaign-all .card-deck .card .progress .progress-bar {
+#campaign-all .card .progress .progress-bar {
   background-color: #BF8B2E;
 }
 
-#campaign-all .card-deck .card .link-selengkapnya {
+#campaign-all .card .link-selengkapnya {
   color: #BF8B2E;
   text-decoration: none;
 }
 
-#campaign-all .card-deck .card .link-selengkapnya:hover {
+#campaign-all .card .link-selengkapnya:hover {
   color: #70571A;
 }
 
@@ -1283,7 +1301,12 @@
   text-align: center;
 }
 
-#detail .text-title {
+#detail .card {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#detail .card .text-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -1293,7 +1316,7 @@
   padding-bottom: 15px;
 }
 
-#detail .text {
+#detail .card .text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -1302,28 +1325,28 @@
   color: #7A7A7A;
 }
 
-#detail .span-donasi {
+#detail .card .span-donasi {
   font-size: 14px;
   color: #BF8B2E;
   font-weight: 600;
 }
 
-#detail .card-text-donasi {
+#detail .card .card-text-donasi {
   font-size: 12px;
   font-family: 'Poppins';
 }
 
-#detail .progress .progress-bar {
+#detail .card .progress .progress-bar {
   background-color: #BF8B2E;
 }
 
-#detail .kanan {
+#detail .card .kanan {
   margin-left: 110px;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-#detail .text-sisa {
+#detail .card .text-sisa {
   font-family: Inter;
   font-weight: bold;
   font-size: 14px;
@@ -1332,7 +1355,7 @@
   padding-top: 10px;
 }
 
-#detail .text-tenggat {
+#detail .card .text-tenggat {
   font-family: Inter;
   font-weight: normal;
   font-size: 14px;
@@ -1341,12 +1364,629 @@
   padding-top: 10px;
 }
 
-#detail .btn-skrng {
+#detail .card .btn-skrng {
   background-color: #BF8B2E;
   width: 376px;
   height: 54px;
   border: #BF8B2E;
   color: white;
   border-radius: 5px;
+}
+
+#detail .detail-program-kedua {
+  margin-top: 78px;
+}
+
+#detail .detail-program-kedua .title-bawah {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#detail .detail-program-kedua .p-bawah {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#detail .detail-program-kedua .item .card-body .h5-donatur {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#detail .detail-program-kedua .item .card-body .nama {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+}
+
+#detail .detail-program-kedua .item .card-body .donasi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#identitas-donasi {
+  padding-top: 135px;
+  padding-bottom: 250px;
+}
+
+#identitas-donasi .konten-kiri .identitas-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#identitas-donasi .konten-kiri .identitas-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+}
+
+#identitas-donasi .konten-kiri .form-identitas .form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #BF9D60;
+}
+
+#identitas-donasi .konten-kiri .form-identitas .form-control {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#identitas-donasi .konten-kiri .btn-primary {
+  margin-top: 55px;
+  width: 373px;
+  height: 54px;
+  left: 100px;
+  top: 539px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+#nominal-donasi {
+  padding-top: 135px;
+  padding-bottom: 250px;
+}
+
+#nominal-donasi .konten-kiri .donasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#nominal-donasi .konten-kiri .donasi-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+  margin-bottom: 30px;
+}
+
+#nominal-donasi .konten-kiri .btn-primary {
+  margin-top: 55px;
+  width: 373px;
+  height: 54px;
+  left: 100px;
+  top: 539px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+#nominal-donasi .konten-kiri .form-check {
+  margin-bottom: 12px;
+}
+
+#nominal-donasi .konten-kiri .form-check .form-check-input {
+  border-color: #BF8B2E;
+}
+
+#konfirmasi-donasi {
+  padding-top: 135px;
+  padding-bottom: 250px;
+}
+
+#konfirmasi-donasi .konten-kiri .konfirmasi-donasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#konfirmasi-donasi .konten-kiri .konfirmasi-donasi-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+  margin-bottom: 30px;
+}
+
+#konfirmasi-donasi .konten-kiri .form-identitas .form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #BF9D60;
+}
+
+#konfirmasi-donasi .konten-kiri .form-identitas .form-control {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#konfirmasi-donasi .konten-kiri .form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #BF9D60;
+}
+
+#konfirmasi-donasi .konten-kiri .btn-primary {
+  margin-top: 55px;
+  width: 373px;
+  height: 54px;
+  left: 100px;
+  top: 539px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+#proses-pembayaran {
+  padding-top: 214px;
+}
+
+#proses-pembayaran .proses-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+
+#proses-pembayaran .proses-h2 {
+  padding-top: 102px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 81px;
+}
+
+#proses-pembayaran .btn {
+  width: 238px;
+  height: 48px;
+  left: 601px;
+  top: 547px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  margin-bottom: 222px;
+}
+
+#donasi-baru {
+  margin-top: 50px;
+}
+
+#donasi-baru .donasi-baru-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 95px;
+}
+
+#donasi-baru .card {
+  border-radius: 18px;
+  background: #FEFEFE;
+  width: 322px;
+  margin-bottom: 57px;
+}
+
+#donasi-baru .card .card-body .donasi-baru-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3C3C3C;
+}
+
+#donasi-baru .card .card-body .donasi-baru-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #7A7A7A;
+}
+
+#donasi-baru .card .card-body .donasi-baru-h5 .link-selengkapnya {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #BF8B2E;
+}
+
+#donasi-baru .card .card-body .donasi-baru-h5 .link-selengkapnya:hover {
+  color: red;
+}
+
+#donasi-baru .card .card-body .donasi-baru-p {
+  margin-top: 23px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#donasi-baru .card .card-body .donasi-baru-p .donasi-baru-span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BF8B2E;
+}
+
+#donasi-baru .card .card-body .progress-bar {
+  background-color: #BF8B2E;
+}
+
+#donasi-baru .card .card-body .row {
+  margin-top: 4px;
+}
+
+#donasi-baru .card .card-body .row #total-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BF8B2E;
+}
+
+#donasi-baru .card .card-body .row #tutup-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  color: #E36863;
+}
+
+#donasi-baru .card .card-body .btn-primary {
+  width: 286px;
+  height: 48px;
+  left: 18px;
+  top: 531px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  margin-top: 45px;
+}
+
+#donasi-baru .btn-lihat {
+  width: 700px;
+  height: 48px;
+  left: 370px;
+  top: 854px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  margin-bottom: 98px;
+}
+
+@media only screen and (max-width: 768px) {
+  #donasi-baru .btn-lihat {
+    width: 300px;
+  }
+}
+
+#detail-program-baru {
+  padding-top: 150px;
+}
+
+#detail-program-baru .detail-program-baru-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 73px;
+}
+
+#detail-program-baru .card {
+  width: 416px;
+  border-color: white;
+  margin-top: 50px;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .detail-program-baru-p .donasi-baru-span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .progress-bar {
+  background-color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .row {
+  margin-top: 10px;
+}
+
+#detail-program-baru .card .card-body .row #total-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BF8B2E;
+}
+
+#detail-program-baru .card .card-body .row #total-donasi .total-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .row #tutup-donasi {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #000000;
+}
+
+#detail-program-baru .card .card-body .btn-donasi {
+  margin-top: 14px;
+  width: 376px;
+  height: 54px;
+  left: 20px;
+  top: 257px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+}
+
+#detail-program-baru #konten-bawah {
+  margin-top: 78px;
+}
+
+#detail-program-baru #konten-bawah .title-bawah {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru #konten-bawah .p-bawah {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  margin-bottom: 100px;
+}
+
+#detail-program-baru #konten-bawah .item {
+  margin-bottom: 100px;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .h5-donatur {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .nama {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+}
+
+#detail-program-baru #konten-bawah .item .card-body .donasi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+@media only screen and (max-width: 992px) {
+  #detail-program-baru .item {
+    text-align: center;
+  }
+}
+
+#metode-pembayaran {
+  padding-top: 135px;
+  padding-bottom: 250px;
+}
+
+#metode-pembayaran .konten-kiri .donasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#metode-pembayaran .konten-kiri .donasi-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+  margin-bottom: 30px;
+}
+
+#metode-pembayaran .konten-kiri .accordion-metode-pembayaran .accordion-button {
+  font-size: 12px;
+}
+
+#metode-pembayaran .konten-kiri .accordion-metode-pembayaran .form-metode-pembayaran .form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+#metode-pembayaran .konten-kiri .accordion-metode-pembayaran .form-metode-pembayaran .form-gambar {
+  float: right;
+}
+
+#metode-pembayaran .konten-kiri .accordion-metode-pembayaran .form-metode-pembayaran .form-control {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#metode-pembayaran .konten-kiri .btn-primary {
+  margin-top: 10px;
+  width: 373px;
+  height: 54px;
+  left: 100px;
+  top: 539px;
+  background: #BF8B2E;
+  border-color: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FEFEFE;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,52 @@
+#nominal-donasi {
+    padding-top: 135px;
+    padding-bottom: 250px;
+
+    .konten-kiri {
+        .donasi-p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 150%;
+            color: #BCBCBC;
+        }
+
+        .donasi-h4 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #3C3C3C;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            margin-top: 55px;
+            width: 373px;
+            height: 54px;
+            left: 100px;
+            top: 539px;
+            background: #BF8B2E;
+            border-color: #BF8B2E;
+            border-radius: 5px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            color: #FEFEFE;
+        }
+
+        .form-check {
+            margin-bottom: 12px;
+
+            .form-check-input {
+                border-color: #BF8B2E;
+            }
+        }
+
+    }
+}
