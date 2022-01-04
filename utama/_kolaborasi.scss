@@ -1,0 +1,87 @@
+#kolaborasi {
+    .kolaborasi-h5 {
+        margin-top: 250px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #BF8B2E;
+    }
+
+    .kolaborasi-h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #1D1819;
+        width: 650px;
+    }
+
+    .kolaborasi-p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #3C3C3C;
+    }
+
+    .item {
+        width: 238px;
+        margin-top: 397px;
+
+        .partner-h3 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #1D1819;
+        }
+
+        .partner-h4 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #3C3C3C;
+            margin-top: 12px;
+        }
+
+        .btn-partner {
+            width: 238px;
+            height: 48px;
+            left: 796px;
+            top: 504px;
+            background: #BF8B2E;
+            border-radius: 5px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FEFEFE;
+            margin-top: 25px;
+
+            &:hover {
+                background-color: #80571A;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .kolaborasi-h1 {
+            width: auto;
+        }
+
+    }
+
+}

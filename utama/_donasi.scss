@@ -1,0 +1,54 @@
+#donasi {
+    width: 1321px;
+    height: 417px;
+    background-image: url("assets/images/desktop-donate-revisi-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    /* margin-top: 500px; */
+    font-family: inter;
+    color: #3C3C3C;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .12),
+        0 4px 8px rgba(0, 0, 0, .06);
+
+    .card-body-donate {
+        padding-top: 120px;
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 550;
+            font-size: 16px;
+            padding-bottom: 20px;
+            width: 544px;
+            margin: auto;
+        }
+
+        .btn-primary {
+            background-color: #80571A;
+            border-color: #BF8B2E;
+            width: 282px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #FEFEFE;
+            height: 54px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        width: auto;
+
+        .card-body-donate {
+            p {
+                width: auto;
+            }
+        }
+    }
+}

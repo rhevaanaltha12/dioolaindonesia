@@ -1,3 +1,929 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@800&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Poppins:wght@800&family=Roboto:wght@500&display=swap");
+.navbar {
+  /* background: rgb(76, 71, 76); */
+  /* background: linear-gradient(90deg, rgba(76, 71, 76, 1) 0%, rgba(122, 99, 79, 1) 50%); */
+  /* background: rgba(255, 255, 255, 0.1); */
+  background-color: #80571A;
+  min-height: 80px;
+  z-index: 5;
+  /* background: transparent; */
+  /* backdrop-filter: blur(50px); */
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* backdrop-filter: blur(4px) saturate(150%); */
+}
+
+.navbar img {
+  padding-left: 60px;
+  height: 40px;
+}
+
+.navbar .navbar-brand {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar .navbar-collapse {
+  /* margin-left: 600px; */
+  font-size: 20px;
+}
+
+.navbar .navbar-nav li {
+  padding-right: 60px;
+}
+
+.navbar .nav-item a:hover {
+  color: #BF8B2E !important;
+}
+
+.navbar .navbar-toggler {
+  position: relative;
+  z-index: 1;
+  color: white !important;
+  /* background-color: red; */
+}
+
+.carousel {
+  height: 787px;
+  width: 100%;
+}
+
+.carousel p {
+  width: 498px;
+  padding-bottom: 36px;
+}
+
+#carouselExampleCaptions {
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExampleCaptions .carousel-caption {
+  z-index: 1;
+  top: 264px;
+  bottom: 281px;
+  left: 60px;
+  right: 60px;
+  text-align: left;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: poppins;
+  padding-bottom: 10px;
+}
+
+#carouselExampleCaptions .carousel-caption button {
+  width: 177px;
+  height: 52px;
+  background-color: #BF8B2E;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: inter;
+}
+
+#carouselExampleCaptions .carousel-caption button:hover {
+  background-color: #80571A;
+}
+
+#carouselExampleCaptions .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #E8E8E8;
+}
+
+#carouselExampleCaptions .carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  background-color: #BF8B2E;
+}
+
+#carouselExampleCaptions .carousel-item {
+  background: black;
+}
+
+#carouselExampleCaptions .carousel-item img {
+  opacity: 0.5;
+  width: 100%;
+}
+
+#visi {
+  margin-bottom: 220px;
+}
+
+#visi #visi-konten .visi-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+  margin-top: 313px;
+}
+
+#visi #visi-konten .visi-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  width: 650px;
+  margin-top: 10px;
+}
+
+#visi #visi-konten .visi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+  margin-top: 35px;
+}
+
+#visi img {
+  margin-top: 220px;
+}
+
+@media only screen and (max-width: 992px) {
+  #visi #visi-konten .visi-h1 {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #visi {
+    margin-bottom: -100px;
+  }
+}
+
+#program .program-h5 {
+  margin-top: 215px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#program .program-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  margin-top: 18px;
+}
+
+#program .card {
+  padding: 41px 32px;
+  width: 359px;
+  height: 394px;
+  border-color: white;
+  margin-top: 150px;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+#program .card .item .card-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #BF8B2E;
+}
+
+#program .card .item .card-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+  margin-top: 25px;
+}
+
+#program .card .item .card-end {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+  margin-top: 15px;
+}
+
+#program .card .item .btn-program {
+  margin-top: 34px;
+  width: 238px;
+  height: 48px;
+  left: 20px;
+  top: 270px;
+  background: #80571A;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FEFEFE;
+  opacity: 0;
+}
+
+#program .card .item .btn-program:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#program .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: -24px 23px 74px rgba(191, 139, 46, 0.45);
+          box-shadow: -24px 23px 74px rgba(191, 139, 46, 0.45);
+  background: #BF8B2E;
+  color: white;
+}
+
+#program .card:hover .item .card-number {
+  background-color: white;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  padding: 6px 0;
+}
+
+#program .card:hover .item .card-title {
+  color: #FEFEFE;
+}
+
+#program .card:hover .item .card-end {
+  color: #FEFEFE;
+}
+
+#program .card:hover .item .btn-program {
+  opacity: 1;
+}
+
+#program #under-program {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 250px;
+}
+
+#program #under-program .under-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#program #under-program .under-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #7A7A7A;
+}
+
+#program #under-program:hover .under-h1 {
+  color: #BF8B2E;
+}
+
+#program #under-program:hover .under-h5 {
+  color: #BF8B2E;
+}
+
+@media only screen and (max-width: 992px) {
+  #program #under-program {
+    margin-bottom: -50px;
+  }
+}
+
+#dokumentasi .dokumentasi-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BF8B2E;
+}
+
+#dokumentasi .dokumentasi-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#dokumentasi .slider-dokumentasi {
+  margin-bottom: 200px;
+}
+
+#dokumentasi .slider-dokumentasi .owl-dots {
+  margin-top: 50px;
+}
+
+#dokumentasi .slider-dokumentasi .item {
+  margin-top: 108px;
+}
+
+@media only screen and (max-width: 992px) {
+  #dokumentasi {
+    margin-top: 150px;
+  }
+}
+
+#kolaborasi .kolaborasi-h5 {
+  margin-top: 250px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#kolaborasi .kolaborasi-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  width: 650px;
+}
+
+#kolaborasi .kolaborasi-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+}
+
+#kolaborasi .item {
+  width: 238px;
+  margin-top: 397px;
+}
+
+#kolaborasi .item .partner-h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1D1819;
+}
+
+#kolaborasi .item .partner-h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3C3C3C;
+  margin-top: 12px;
+}
+
+#kolaborasi .item .btn-partner {
+  width: 238px;
+  height: 48px;
+  left: 796px;
+  top: 504px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FEFEFE;
+  margin-top: 25px;
+}
+
+#kolaborasi .item .btn-partner:hover {
+  background-color: #80571A;
+}
+
+#kolaborasi .item .btn-partner:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #kolaborasi .kolaborasi-h1 {
+    width: auto;
+  }
+}
+
+#bergabung .bergabung-h5 {
+  margin-top: 220px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#bergabung .bergabung-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  margin-bottom: 122px;
+}
+
+#bergabung .card {
+  background: #fff;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  background: #FEFEFE;
+  border: 2px solid #E8E8E8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  height: 600px;
+  width: 320px;
+  margin-bottom: 50px;
+}
+
+#bergabung .card .item {
+  padding: 50px 25px;
+}
+
+#bergabung .card .item .card-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3C3C3C;
+  margin-bottom: 20px;
+}
+
+#bergabung .card .item .card-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#bergabung .card .item .btn-bergabung {
+  width: 205px;
+  height: 58px;
+  left: 48px;
+  top: 282px;
+  background: #80571A;
+  border-radius: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 74px;
+  color: #FEFEFE;
+  opacity: 0;
+}
+
+#bergabung .card .item .partner-kami {
+  margin-top: 83px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #BCBCBC;
+}
+
+#bergabung .card:hover {
+  background: #FEFEFE;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: -6px 15px 44px rgba(0, 0, 0, 0.2);
+          box-shadow: -6px 15px 44px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+}
+
+#bergabung .card:hover .card-h3 {
+  color: #BF8B2E;
+}
+
+#bergabung .card:hover .btn-bergabung {
+  opacity: 1;
+}
+
+#bergabung #konten-partner {
+  padding-top: 200px;
+  margin-bottom: 200px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #BCBCBC;
+}
+
+#review-ahli {
+  margin-bottom: 500px;
+}
+
+#review-ahli .review-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#review-ahli .review-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  margin-bottom: 150px;
+  margin-top: 10px;
+}
+
+#review-ahli .slider-review .card {
+  height: 300px;
+  width: 386px;
+  border: none;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+#review-ahli .slider-review .card .item {
+  padding: 32px;
+}
+
+#review-ahli .slider-review .card .item .card-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7A7A7A;
+}
+
+#review-ahli .slider-review .card .item .dt-nama {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+}
+
+#review-ahli .slider-review .card .item .dt-job {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+}
+
+#review-ahli .slider-review .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: #FEFEFE;
+  -webkit-box-shadow: -15px 23px 34px rgba(0, 0, 0, 0.06);
+          box-shadow: -15px 23px 34px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+#review-ahli .slider-review .card:hover .dt-nama {
+  color: #BF8B2E;
+}
+
+#library .library-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+}
+
+#library .library-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+  margin-bottom: 150px;
+}
+
+#library .card {
+  width: 322px;
+  margin-bottom: 57px;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  background: #FEFEFE;
+  border: 2px solid #E8E8E8;
+  border-radius: 18px;
+}
+
+#library .card .card-body .donasi-baru-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3C3C3C;
+}
+
+#library .card .card-body .donasi-baru-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #7A7A7A;
+}
+
+#library .card .card-body .donasi-baru-h5 .link-selengkapnya {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #BF8B2E;
+}
+
+#library .card .card-body .donasi-baru-h5 .link-selengkapnya:hover {
+  color: red;
+}
+
+#library .card .card-body .row {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BCBCBC;
+}
+
+#library .card .card-body .btn-primary {
+  width: 286px;
+  height: 48px;
+  left: 18px;
+  top: 531px;
+  background: #BF8B2E;
+  border-radius: 5px;
+  border-color: #BF8B2E;
+  margin-top: 45px;
+  opacity: 0;
+}
+
+#library .card:hover {
+  background: #FEFEFE;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: -6px 15px 44px rgba(0, 0, 0, 0.2);
+          box-shadow: -6px 15px 44px rgba(0, 0, 0, 0.2);
+}
+
+#library .card:hover .btn-primary {
+  opacity: 1;
+}
+
+#faq .faq-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BF8B2E;
+  margin-bottom: 10px;
+  margin-top: 200px;
+}
+
+#faq .faq-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1819;
+}
+
+#faq .accordion {
+  width: 80%;
+  padding-top: 115px;
+  padding-bottom: 200px;
+  border-radius: 100px;
+}
+
+#faq .accordion .accordion-item {
+  margin-bottom: 24px;
+}
+
+#faq .accordion .accordion-item .accordion-button {
+  padding: 40px 36px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3C3C3C;
+  /* background-color: #F4F2ED; */
+  background-color: white;
+  border: none;
+}
+
+#faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #BF8B2E;
+}
+
+#faq .accordion .accordion-item .accordion-collapse {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* color: #7A7A7A; */
+  /* background-color: #F4F2ED; */
+  background-color: white;
+}
+
+#faq .accordion .accordion-item .accordion-body {
+  padding-left: 40px;
+  padding-right: 64px;
+  padding-bottom: 35px;
+  background-color: white;
+}
+
+#donasi {
+  width: 1321px;
+  height: 417px;
+  background-image: url("assets/images/desktop-donate-revisi-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  /* margin-top: 500px; */
+  font-family: inter;
+  color: #3C3C3C;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+#donasi .card-body-donate {
+  padding-top: 120px;
+}
+
+#donasi .card-body-donate p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 544px;
+  margin: auto;
+}
+
+#donasi .card-body-donate .btn-primary {
+  background-color: #80571A;
+  border-color: #BF8B2E;
+  width: 282px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FEFEFE;
+  height: 54px;
+}
+
+@media only screen and (max-width: 992px) {
+  #donasi {
+    width: auto;
+  }
+  #donasi .card-body-donate p {
+    width: auto;
+  }
+}
+
+#footer {
+  background-color: #F4F2ED;
+  padding-top: 100px;
+}
+
+#footer #about-company a {
+  text-decoration: none;
+}
+
+#footer #about-company .img-fluid {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+#footer #about-company img {
+  width: 45px;
+  height: 58px;
+  margin-bottom: 20px;
+}
+
+#footer #about-company p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7A7A7A;
+}
+
+#footer #link-footer li {
+  margin-bottom: 10px;
+}
+
+#footer #link-footer ul {
+  list-style-type: none;
+}
+
+#footer #link-footer a {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #3C3C3C;
+}
+
+#footer #link-footer a:hover {
+  color: #BF8B2E;
+  font-weight: 600;
+}
+
+#footer #program-footer li {
+  margin-bottom: 10px;
+}
+
+#footer #program-footer ul {
+  list-style-type: none;
+}
+
+#footer #program-footer a {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #3C3C3C;
+}
+
+#footer #program-footer a:hover {
+  color: #BF8B2E;
+  font-weight: 600;
+}
+
+#footer .copyright {
+  font-size: 12px;
+  text-align: center;
+  color: #BCBCBC;
+}
+
 #prainkubasi-1 {
   padding-top: 10%;
 }
@@ -1481,6 +2407,12 @@
   color: #FEFEFE;
 }
 
+@media only screen and (max-width: 768px) {
+  #identitas-donasi .btn-primary {
+    width: auto;
+  }
+}
+
 #nominal-donasi {
   padding-top: 135px;
   padding-bottom: 250px;
@@ -1529,6 +2461,12 @@
 
 #nominal-donasi .konten-kiri .form-check .form-check-input {
   border-color: #BF8B2E;
+}
+
+@media only screen and (max-width: 768px) {
+  #nominal-donasi .btn-primary {
+    width: auto;
+  }
 }
 
 #konfirmasi-donasi {
@@ -1598,6 +2536,12 @@
   line-height: 150%;
   text-align: center;
   color: #FEFEFE;
+}
+
+@media only screen and (max-width: 768px) {
+  #konfirmasi-donasi .btn-primary {
+    width: auto;
+  }
 }
 
 #proses-pembayaran {
@@ -1762,7 +2706,7 @@
 
 @media only screen and (max-width: 768px) {
   #donasi-baru .btn-lihat {
-    width: 300px;
+    width: auto;
   }
 }
 
@@ -1919,6 +2863,9 @@
   #detail-program-baru .item {
     text-align: center;
   }
+  #detail-program-baru .btn-donasi {
+    width: auto;
+  }
 }
 
 #metode-pembayaran {
@@ -1988,5 +2935,11 @@
   line-height: 150%;
   text-align: center;
   color: #FEFEFE;
+}
+
+@media only screen and (max-width: 768px) {
+  #metode-pembayaran .btn-primary {
+    width: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
