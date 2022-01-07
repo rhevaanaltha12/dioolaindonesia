@@ -29,7 +29,7 @@
             transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12),
                 .3s box-shadow,
                 .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-
+            
             .item {
                 padding: 32px;
 
@@ -66,6 +66,7 @@
                 background: #FEFEFE;
                 box-shadow: -15px 23px 34px rgba(0, 0, 0, 0.06);
                 border-radius: 10px;
+                margin-bottom: 20px;
 
                 .dt-nama {
                     color: #BF8B2E;
