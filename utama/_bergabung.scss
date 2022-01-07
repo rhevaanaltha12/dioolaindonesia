@@ -1,0 +1,112 @@
+#bergabung {
+    .bergabung-h5 {
+        margin-top: 220px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #BF8B2E;
+    }
+
+    .bergabung-h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #1D1819;
+        margin-bottom: 122px;
+    }
+
+    .card {
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .08),
+            0 0 6px rgba(0, 0, 0, .05);
+        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12),
+            .3s box-shadow,
+            .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+        background: #FEFEFE;
+        border: 2px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 18px;
+        height: 600px;
+        width: 320px;
+        margin-bottom: 50px;
+
+        .item {
+            padding: 50px 25px;
+
+            .card-h3 {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+                color: #3C3C3C;
+                margin-bottom: 20px;
+            }
+
+            .card-p {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: #7A7A7A;
+            }
+
+            .btn-bergabung {
+                width: 205px;
+                height: 58px;
+                left: 48px;
+                top: 282px;
+                background: #80571A;
+                border-radius: 5px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 74px;
+                color: #FEFEFE;
+                opacity: 0;
+            }
+
+            .partner-kami {
+                margin-top: 83px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: #BCBCBC;
+            }
+        }
+
+        &:hover {
+            background: #FEFEFE;
+            transform: scale(1.05);
+            box-shadow: -6px 15px 44px rgba(0, 0, 0, 0.2);
+            border-radius: 18px;
+
+            .card-h3 {
+                color: #BF8B2E;
+            }
+
+            .btn-bergabung {
+                opacity: 1;
+            }
+        }
+    }
+
+    #konten-partner {
+        padding-top: 200px;
+        margin-bottom: 200px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #BCBCBC;
+    }
+}
