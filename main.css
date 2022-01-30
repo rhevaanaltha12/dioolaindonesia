@@ -52,7 +52,7 @@
 }
 
 .carousel {
-  height: 787px;
+  height: 710px;
   width: 100%;
 }
 
@@ -116,6 +116,7 @@
 #carouselExampleCaptions .carousel-item img {
   opacity: 0.5;
   width: 100%;
+  height: 710px;
 }
 
 #visi {
@@ -981,9 +982,8 @@
 }
 
 @media only screen and (max-width: 992px) {
-  #prainkubasi-1 img {
-    padding-top: 100px;
-    margin: 0 auto;
+  #prainkubasi-1 .konten-kiri {
+    padding: 40px;
   }
 }
 
@@ -1117,6 +1117,10 @@
   }
   #cara-kerja .accordion-prainkubasi {
     margin-top: 100px;
+    padding: 40px;
+  }
+  #cara-kerja .kiri {
+    padding: 40px;
   }
 }
 
@@ -1208,6 +1212,15 @@
 @media only screen and (max-width: 992px) {
   #dukungan-tambahan-pra .item-dukungan-pra {
     margin: 100px auto;
+  }
+  #dukungan-tambahan-pra .bewok {
+    padding: 40px;
+  }
+  #dukungan-tambahan-pra .dukungan-p {
+    width: auto !important;
+  }
+  #dukungan-tambahan-pra .item-dukungan-pra {
+    text-align: center;
   }
 }
 
@@ -2589,7 +2602,7 @@
 }
 
 #donasi-baru {
-  margin-top: 50px;
+  padding-top: 150px;
 }
 
 #donasi-baru .donasi-baru-h1 {
